@@ -11,12 +11,6 @@ function clearDisplay() {
 function deleteLast() {
     display.value = display.value.slice(0, -1);
 }
-function square() {
-  if (display.value !== "") {
-    let number = parseFloat(display.value);
-    display.value = number * number;
-  }
-}
 function calculate() {
     try {
         display.value = eval(display.value);
