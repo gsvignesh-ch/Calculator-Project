@@ -24,6 +24,7 @@ body {
     border: none;
     border-radius: 5px;
     color: #F5F5F5;
+    background: #333;
 }
 
 .buttons {
@@ -51,6 +52,6 @@ button:active {
     background: #888;
 }
 
-.zero {
-    grid-column: span 2;
+.equalto {
+    grid-column: span 3;
 }
